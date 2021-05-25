@@ -1,0 +1,39 @@
+{
+  "name": "is-background",
+  "version": "0.1.0",
+  "description": "A Cordova plugin to determine if app is in background",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "bower": "^1.3.3",
+    "shelljs": "^0.3.0"
+  },
+  "cordovaPlugins": [
+  ],
+  "cordova": {
+    "id": "com.everycrave.is-background",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akilude/cordova-plugin-isbackground.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.4.0"
+    }
+  ],
+  "author": "Akil",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/akilude/cordova-plugin-isbackground/issues"
+  },
+  "homepage": "https://github.com/akilude/cordova-plugin-isbackground#readme"
+}

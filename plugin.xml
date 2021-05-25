@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0" id="com.everycrave.is-background" version="0.1.0">
+
+  <name>isBackground</name>
+  <author>Akil</author>
+  <engines>
+    <engine name="cordova" version=">=3.4.0"/>
+  </engines>
+
+  <asset src="www/isBackground.js" target="js/isBackground.js"/>
+
+  <js-module src="www/isBackground.js" name="isBackground">
+    <clobbers target="isBackground" />
+  </js-module>
+
+  <platform name="ios">
+    
+    <config-file target="config.xml" parent="/widget">
+      <feature name="isBackground">
+        <param name="ios-package" value="isBackground" />
+      </feature>
+    </config-file>
+
+    <header-file src="src/ios/isBackground.h" target-dir="isBackgroundPlugin"/>
+    <source-file src="src/ios/isBackground.m" target-dir="isBackgroundPlugin"/>
+  </platform>
+
+</plugin>
